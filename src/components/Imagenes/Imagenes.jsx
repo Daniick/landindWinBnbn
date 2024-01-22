@@ -1,6 +1,6 @@
 // Importar las dependencias necesarias
 import React, { useState, useEffect } from "react";
-import Imagen from "./imagen";
+import Foto from "./Foto";
 import Navegacion from "../Navegacion";
 import Cuerpo from "../Cuerpo";
 import "./Imagen.css";
@@ -69,7 +69,7 @@ const Imagenes = () => {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4">
         {filteredCategories.slice(0, 6).map((imageData, index) => (
-          <Imagen key={index} {...imageData} />
+          <Foto key={index} {...imageData} />
         ))}
       </div>
     </section>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Imagen.css";
 
-const Imagen = ({ photo, superHost, type, title, rating, beds }) => {
+const Foto = ({ photo, superHost, type, title, rating, beds }) => {
   return (
     <section className="mt-1  rounded mb-2 imagen_hover tu-contenedor-padre sm:mt-4">
       <div className="p-4 flex flex-col">
@@ -39,4 +39,4 @@ const Imagen = ({ photo, superHost, type, title, rating, beds }) => {
   );
 };
 
-export default Imagen;
+export default Foto;
