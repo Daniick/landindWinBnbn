@@ -1,6 +1,5 @@
-import Navegacion from "./components/Navegacion";
-import Cuerpo from "./components/Cuerpo";
 import "./App.css";
+import Footer from "./components/Footer";
 import Imagenes from "./components/Imagenes/Imagenes";
 
 const App = () => {
@@ -8,6 +7,7 @@ const App = () => {
     <main>
       <div className="">
         <Imagenes />
+        <Footer />
       </div>
     </main>
   );
